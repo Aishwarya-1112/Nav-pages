@@ -1,0 +1,41 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+form {
+  max-width: 400px;
+  margin-top: 3%;
+  margin-left: 35%;
+  padding: 50px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 12px rgb(72, 74, 196);
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: block;
+  margin: 10;
+}
+h2 {
+  color: rgb(72, 74, 196);
+}
+button,
+input {
+  border-radius: 4px;
+  height: 20px;
+  width: 100%;
+  border: 1px solid;
+}
+.button {
+  background-color: rgb(72, 74, 196);
+  border-color: rgba(28, 210, 28, 0.458);
+  color: rgb(255, 255, 255);
+  margin: 10px 0;
+  font-weight: 400;
+  font: bold;
+  width: 100%;
+  color: #ffffff;
+}
+textarea {
+  width: 100%;
+}

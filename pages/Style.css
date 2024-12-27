@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  display: flex;
+  background-color: rgb(30, 30, 145);
+  justify-content: end;
+  padding: 10px 0;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Header a {
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: end;
+}
+.Header a:hover {
+  background-color: rgb(253, 254, 255);
+  border-radius: 20px;
+  color: rgb(25, 13, 157);
+  font-size: 25px;
+}
+.Header a.active {
+  background-color: rgba(7, 6, 12, 0.732);
+  border-radius: 5px;
+}
+
+.img {
+  width: 100%;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  color: rgb(27, 24, 159);
+}
